@@ -9,3 +9,5 @@ library(rvest)
 # get ready to be patient if you want to run it
 
 #map_dfr(uoe_art$link, scrape_art_info)
+
+uoe_art_info <- map_df(uoe_art$link, scrape_art_info)
